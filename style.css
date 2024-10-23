@@ -1,0 +1,129 @@
+body { 
+  background-color: #f1e0e1;
+  font-family: monospace;
+}
+
+.red-back {
+  width: 100%;
+  height: 90px;
+  border-radius: 10px;
+  opacity: 0.8;
+  object-fit: cover;
+  position: relative;
+   z-index: 3;
+}
+
+.menu-links {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 3;
+}
+
+.btn-home, .btn-project, .btn-contact {
+  font-size: 25px;
+  text-decoration: none;
+  color: darkred;
+  font-weight: bolder;
+}
+
+.btn-home {
+  transform: translateX(80px);
+}
+
+.btn-contact {
+  transform: translateX(-80px);
+}
+
+.btn-home:hover, .btn-project:hover, .btn-contact:hover {
+  color: indianred;
+}
+
+.image-container {
+  position: relative;
+}
+
+.fire-image {
+  display: block;
+  opacity: 0.5;
+  height: 500px;
+  width: 1100px;
+  object-fit: cover;
+  transform: translateX(120px) translateY(50px);
+  box-shadow: 2px 3px 30px darkred;
+}
+
+.content-overlay {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2; 
+  text-align: center;
+}
+
+.face-image {
+    width: 484px;
+    height: 367px;
+    object-fit: cover;
+    z-index: 3;
+    transform: translateX(200px) translateY(100px);
+}
+
+
+h6 {
+  margin-top: 10px;
+  font-size: 30px;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 10px;
+  z-index: 3; 
+  font-weight: bold;
+  transform: translateX(-200px) translateY(-210px);
+  width: 350px;
+}
+
+.about-me {
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 2em; 
+  margin-bottom: 20px; 
+}
+
+.intro, .about-me p {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+@media screen and (max-width: 600px) {
+  .btn-home, .btn-project, .btn-contact {
+    font-size: 20px; 
+  }
+  
+  h6 {
+    font-size: 24px; 
+  }
+
+h1 {
+    font-size: 2em;
+}
+
+  .face-image {
+    width: 60%; 
+  }
+
+  .fire-image {
+    height: auto; 
+  }
+
+  p {
+    padding: 0 10px; 
+  }
+}
