@@ -129,3 +129,11 @@ h1 {
     padding: 0 10px; 
   }
 }
+
+.footer{
+  transform: translateY(50px);
+}
+
+.contact-footer {
+  transform: translateY(255px);
+}
