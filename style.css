@@ -71,6 +71,7 @@ body {
   max-width: 484px;
   height: auto;
   object-fit: cover;
+  transform:translate(100px, 100px);
 }
 
 h6 {
