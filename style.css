@@ -51,10 +51,12 @@ body {
   display: block;
   opacity: 0.5;
   width: 100%;
-  height: auto;
+  height: 500px;
   object-fit: cover;
-  transform: translateX(120px) translateY(50px);
   box-shadow: 2px 3px 30px darkred;
+  margin-top: 54px;
+  padding: 7px;
+  border-radius: 5px;
 }
 
 .content-overlay {
@@ -67,11 +69,11 @@ body {
 }
 
 .face-image {
-    width: 484px;
-    height: 367px;
-    object-fit: cover;
-    z-index: 3;
-    transform: translateX(200px) translateY(100px);
+  width: 484px;
+  height: 367px;
+  object-fit: cover;
+  z-index: 3;
+  transform: translateX(203px) translateY(43px);
 }
 
 
@@ -81,9 +83,9 @@ h6 {
   color: black;
   padding: 5px 10px;
   border-radius: 10px;
-  z-index: 3; 
+  z-index: 3;
   font-weight: bold;
-  transform: translateX(-200px) translateY(-210px);
+  transform: translateX(-200px) translateY(-255px);
   width: 350px;
 }
 
