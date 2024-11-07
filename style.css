@@ -76,7 +76,6 @@ body {
   transform: translateX(203px) translateY(43px);
 }
 
-
 h6 {
   margin-top: 10px;
   font-size: 30px;
@@ -90,8 +89,8 @@ h6 {
 }
 
 .about-me {
-    margin-top: 90px;
-    margin-bottom: 30px;
+  margin-top: 90px;
+  margin-bottom: 30px;
 }
 
 h1 {
@@ -100,8 +99,8 @@ h1 {
 }
 
 .intro, .about-me p {
-    max-width: 800px;
-    margin: 40px auto;
+  max-width: 800px;
+  margin: 40px auto;
 }
 
 @media screen and (max-width: 600px) {
@@ -113,9 +112,9 @@ h1 {
     font-size: 24px; 
   }
 
-h1 {
+  h1 {
     font-size: 2em;
-}
+  }
 
   .face-image {
     width: 60%; 
@@ -136,4 +135,26 @@ h1 {
 
 .contact-footer {
   transform: translateY(255px);
+}
+
+
+.html-logo-pic {
+  height: 120px; 
+  width: auto;
+  max-width: 100%;
+  margin: 10px 0;
+  object-fit: contain;
+  border: 2px solid white; 
+  padding: 20px;
+  border-radius: 10px; 
+}
+
+.col-12 {
+  margin: 20px 0; 
+}
+
+@media screen and (max-width: 600px) {
+  .html-logo-pic {
+    height: 80px; 
+  }
 }
