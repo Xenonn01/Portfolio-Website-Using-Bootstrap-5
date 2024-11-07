@@ -137,6 +137,14 @@ h1 {
   transform: translateY(255px);
 }
 
+.project-pic{
+  height: 260px;
+  width: auto;
+  max-width: 100%;
+  border: 2px solid white;
+  box-shadow: 0.1px 0.1px 30px rgb(173, 132, 132);
+}
+
 .logo-pic {
   height: 250px;
   width: auto;
@@ -173,3 +181,4 @@ h1 {
   text-align: center;
   margin-top: 50px;
 }
+
