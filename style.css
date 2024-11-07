@@ -10,7 +10,7 @@ body {
   opacity: 0.8;
   object-fit: cover;
   position: relative;
-   z-index: 3;
+  z-index: 3;
 }
 
 .menu-links {
@@ -64,7 +64,7 @@ body {
   top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 2; 
+  z-index: 2;
   text-align: center;
 }
 
@@ -75,7 +75,6 @@ body {
   z-index: 3;
   transform: translateX(203px) translateY(43px);
 }
-
 
 h6 {
   margin-top: 10px;
@@ -90,50 +89,96 @@ h6 {
 }
 
 .about-me {
-    margin-top: 90px;
-    margin-bottom: 30px;
+  margin-top: 90px;
+  margin-bottom: 30px;
 }
 
 h1 {
-  font-size: 2em; 
-  margin-bottom: 20px; 
+  font-size: 2em;
+  margin-bottom: 20px;
 }
 
 .intro, .about-me p {
-    max-width: 800px;
-    margin: 40px auto;
+  max-width: 800px;
+  margin: 40px auto;
 }
 
 @media screen and (max-width: 600px) {
   .btn-home, .btn-project, .btn-contact {
-    font-size: 20px; 
-  }
-  
-  h6 {
-    font-size: 24px; 
+    font-size: 20px;
   }
 
-h1 {
+  h6 {
+    font-size: 24px;
+  }
+
+  h1 {
     font-size: 2em;
-}
+  }
 
   .face-image {
-    width: 60%; 
+    width: 60%;
   }
 
   .fire-image {
-    height: auto; 
+    height: auto;
   }
 
   p {
-    padding: 0 10px; 
+    padding: 0 10px;
   }
 }
 
-.footer{
+.footer {
   transform: translateY(50px);
 }
 
 .contact-footer {
   transform: translateY(255px);
 }
+
+.project-pic{
+  height: 260px;
+  width: auto;
+  max-width: 100%;
+  border: 2px solid white;
+  box-shadow: 0.1px 0.1px 30px rgb(173, 132, 132);
+}
+
+.logo-pic {
+  height: 250px;
+  width: auto;
+  max-width: 100%;
+  margin: 10px 0;
+  object-fit: contain;
+  border: 2px solid white;
+  padding: 20px;
+  border-radius: 250px;
+  box-shadow: 0.5px 10px darkred;
+
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out; 
+}
+
+.logo-pic:hover {
+
+  filter: grayscale(0%);
+}
+
+.col-12 {
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .logo-pic {
+    height: 80px;
+  }
+}
+
+.project-text {
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 50px;
+}
+
