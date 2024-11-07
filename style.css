@@ -137,7 +137,7 @@ h1 {
   transform: translateY(255px);
 }
 
-.html-logo-pic {
+.logo-pic {
   height: 250px;
   width: auto;
   max-width: 100%;
@@ -152,7 +152,7 @@ h1 {
   transition: filter 0.3s ease-in-out; 
 }
 
-.html-logo-pic:hover {
+.logo-pic:hover {
 
   filter: grayscale(0%);
 }
@@ -162,7 +162,7 @@ h1 {
 }
 
 @media screen and (max-width: 600px) {
-  .html-logo-pic {
+  .logo-pic {
     height: 80px;
   }
 }
