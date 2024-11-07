@@ -139,14 +139,15 @@ h1 {
 
 
 .html-logo-pic {
-  height: 150px; 
+  height: 250px; 
   width: auto;
   max-width: 100%;
   margin: 10px 0;
   object-fit: contain;
   border: 2px solid white; 
   padding: 20px;
-  border-radius: 10px; 
+  border-radius: 250px; 
+  box-shadow: 0.5px  10px darkred;
 }
 
 
