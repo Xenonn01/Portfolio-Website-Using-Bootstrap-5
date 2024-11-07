@@ -10,7 +10,7 @@ body {
   opacity: 0.8;
   object-fit: cover;
   position: relative;
-   z-index: 3;
+  z-index: 3;
 }
 
 .menu-links {
@@ -64,7 +64,7 @@ body {
   top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 2; 
+  z-index: 2;
   text-align: center;
 }
 
@@ -94,8 +94,8 @@ h6 {
 }
 
 h1 {
-  font-size: 2em; 
-  margin-bottom: 20px; 
+  font-size: 2em;
+  margin-bottom: 20px;
 }
 
 .intro, .about-me p {
@@ -105,11 +105,11 @@ h1 {
 
 @media screen and (max-width: 600px) {
   .btn-home, .btn-project, .btn-contact {
-    font-size: 20px; 
+    font-size: 20px;
   }
-  
+
   h6 {
-    font-size: 24px; 
+    font-size: 24px;
   }
 
   h1 {
@@ -117,19 +117,19 @@ h1 {
   }
 
   .face-image {
-    width: 60%; 
+    width: 60%;
   }
 
   .fire-image {
-    height: auto; 
+    height: auto;
   }
 
   p {
-    padding: 0 10px; 
+    padding: 0 10px;
   }
 }
 
-.footer{
+.footer {
   transform: translateY(50px);
 }
 
@@ -137,25 +137,32 @@ h1 {
   transform: translateY(255px);
 }
 
-
 .html-logo-pic {
-  height: 250px; 
+  height: 250px;
   width: auto;
   max-width: 100%;
   margin: 10px 0;
   object-fit: contain;
-  border: 2px solid white; 
+  border: 2px solid white;
   padding: 20px;
-  border-radius: 250px; 
-  box-shadow: 0.5px  10px darkred;
+  border-radius: 250px;
+  box-shadow: 0.5px 10px darkred;
+
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out; 
+}
+
+.html-logo-pic:hover {
+
+  filter: grayscale(0%);
 }
 
 .col-12 {
-  margin: 20px 0; 
+  margin: 20px 0;
 }
 
 @media screen and (max-width: 600px) {
   .html-logo-pic {
-    height: 80px; 
+    height: 80px;
   }
 }
