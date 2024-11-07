@@ -166,3 +166,10 @@ h1 {
     height: 80px;
   }
 }
+
+.project-text {
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 50px;
+}
