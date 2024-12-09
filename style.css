@@ -32,11 +32,11 @@ body {
 }
 
 .btn-home {
-  transform: translateX(80px);
+  transform:translateX(83px)translateY(-300px)
 }
 
 .btn-contact {
-  transform: translateX(-80px);
+  transform:translateX(-80px)translateY(-300px)
 }
 
 .btn-home:hover, .btn-project:hover, .btn-contact:hover {
@@ -137,8 +137,8 @@ h1 {
   transform: translateY(255px);
 }
 
-.project-pic{
-  height: 260px;
+.project-pic {
+  height: 350px;
   width: auto;
   max-width: 100%;
   border: 2px solid white;
@@ -146,18 +146,16 @@ h1 {
 }
 
 .logo-pic {
-  height: 250px;
+  transform: translateY(70px)translateX(-450px);
+  height: 157px;
   width: auto;
-  max-width: 100%;
-  margin: 10px 0;
   object-fit: contain;
   border: 2px solid white;
   padding: 20px;
   border-radius: 250px;
   box-shadow: 0.5px 10px darkred;
-
   filter: grayscale(100%);
-  transition: filter 0.3s ease-in-out; 
+  transition: filter 0.3s ease-in-out;
 }
 
 .logo-pic:hover {
@@ -176,9 +174,53 @@ h1 {
 }
 
 .project-text {
-  font-size: 50px;
+  font-size: 26px;
   font-weight: bolder;
   text-align: center;
-  margin-top: 50px;
 }
 
+/* Style for the progress container */
+.custom-progress {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  height: 25px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transform: translateX(290px)translateY(-25px);
+  width: 850px;
+}
+/* Style for the progress bar */
+.custom-progress-bar {
+  background-color: #684945; /* Green color for the progress bar */
+  font-weight: bold; /* Bold text inside the bar */
+  text-align: center; /* Center-align text inside the bar */
+  line-height: 25px; /* Vertically align text with the bar height */
+  border-radius: 10px; /* Match container's rounded corners */
+  transition: width 0.5s ease; /* Smooth transition for the width change */
+}
+
+.text-skills{
+    text-align: center;
+    transform: translateY(-200px);
+    font-weight: 600;
+    font-size: 26px;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+  display: block;
+  margin-bottom: 60px;
+  margin-top: 57px;
+}
+
+.btn-home-contact {
+  font-size: 25px;
+  text-decoration: none;
+  color: darkred;
+  font-weight: bolder;
+  transform: translateX(600px);
+}
+
+.custom-height {
+  height: 50px; /* Set the desired height */
+  display: flex;
+  align-items: center; /* Center the content vertically */
+  justify-content: center; /* Center the content horizontally */
+}
