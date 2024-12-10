@@ -63,13 +63,13 @@ body {
   transform: translateX(-50%);
   z-index: 2;
   text-align: center;
-  width: 90%; /* Ensure it fits on smaller screens */
+  width: 90%; 
 }
 
 .face-image {
-  width: 60%; /* Adjust size for responsiveness */
+  width: 60%; 
   max-width: 400px;
-  height: auto; /* Maintain aspect ratio */
+  height: auto;
   object-fit: cover;
   z-index: 3;
   margin-top: 20px;
@@ -98,8 +98,8 @@ h1 {
 .intro, .about-me p {
   max-width: 800px;
   margin: 40px auto;
-  padding: 0 20px; /* Add padding for smaller screens */
-  font-size: 1em; /* Ensure readability */
+  padding: 0 20px;
+  font-size: 1em;
 }
 
 /* Responsive Adjustments */
@@ -117,7 +117,7 @@ h1 {
   }
 
   .face-image {
-    width: 80%; /* Adjust size for smaller tablets */
+    width: 80%;
   }
 
   .fire-image {
@@ -126,7 +126,7 @@ h1 {
   }
 
   .intro {
-    font-size: 0.95em; /* Adjust intro font size */
+    font-size: 0.95em; 
   }
 }
 
@@ -145,7 +145,7 @@ h1 {
   }
 
   .face-image {
-    width: 90%; /* Scale down for mobile */
+    width: 90%; 
   }
 
   .fire-image {
@@ -153,7 +153,7 @@ h1 {
   }
 
   p {
-    font-size: 0.9em; /* Ensure text remains readable */
+    font-size: 0.9em;
   }
 }
 
@@ -189,12 +189,12 @@ h1 {
 
 @media (max-width: 768px) {
   .logo-pic {
-    max-width: 80%; /* Adjust as needed */
+    max-width: 80%; 
     height: auto;
   }
   
   .progress-bar {
-    font-size: 14px; /* Smaller font for mobile */
+    font-size: 14px; 
   }
 }
 
@@ -220,24 +220,24 @@ h1 {
   text-align: center;
 }
 
-/* Style for the progress container */
+
 .custom-progress {
-  width: 100%; /* Set container width to 100% */
-  max-width: 900px; /* Optional: Limit the maximum width for larger screens */
-  background-color: #f5f5f5; /* Light background for the container */
+  width: 100%;
+  max-width: 900px; 
+  background-color: #f5f5f5; 
   border-radius: 10px;
   height: 25px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-  margin: 0 auto; /* Center align */
+  margin: 0 auto; 
 }
-/* Style for the progress bar */
+
 .custom-progress-bar {
-  background-color: #684945; /* Custom color */
-  font-weight: bold; /* Bold text inside */
-  text-align: center; /* Center-align text inside */
-  line-height: 25px; /* Vertically align text */
-  border-radius: 10px; /* Match container's corners */
-  transition: width 0.5s ease; /* Smooth transition */
+  background-color: #684945; 
+  font-weight: bold; 
+  text-align: center; 
+  line-height: 25px; 
+  border-radius: 10px; 
+  transition: width 0.5s ease;
 }
 
 .text-skills {
@@ -259,17 +259,17 @@ h1 {
   text-decoration: none;
   color: darkred;
   font-weight: bolder;
-  transition: color 0.3s ease; /* Add smooth hover effect */
+  transition: color 0.3s ease; 
   transform: translateY(-22px);
 }
 
 .btn-home-contact:hover {
-  color: indianred; /* Hover effect */
+  color: indianred; 
 }
 
 .custom-height {
-  height: 50px; /* Set the desired height */
+  height: 50px; 
   display: flex;
-  align-items: center; /* Center the content vertically */
-  justify-content: center; /* Center the content horizontally */
+  align-items: center; 
+  justify-content: center; 
 }
