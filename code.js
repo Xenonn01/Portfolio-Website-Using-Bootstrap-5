@@ -1,3 +1,17 @@
+const text = "Hello, I am Grace G. Getungo, a student at Saint Peter's College, currently studying Computer Studies.";
+const typingElement = document.getElementById("typing-effect");
+let index = 0;
+
+function typeEffect() {
+  if (index < text.length) {
+    typingElement.innerHTML += text.charAt(index);
+    index++;
+    setTimeout(typeEffect, 50); 
+  }
+}
+
+typeEffect();
+
 (function() {
     emailjs.init("4uRlW3YE6_FEevaAQ");
 })();
@@ -12,3 +26,5 @@ document.getElementById('contact-form').addEventListener('submit', function(even
             alert('Failed to send the message: ' + JSON.stringify(error));
         });
 });
+
+
